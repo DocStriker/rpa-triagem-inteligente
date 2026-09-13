@@ -112,7 +112,7 @@ DB_PATH = "ouvidoria_fiap_bank.db"
 # Nomes de modelo mudam com frequencia nos dois provedores. Confirme o
 # modelo atual em aistudio.google.com e console.groq.com antes de rodar.
 GEMINI_MODEL = "gemini-3.5-flash-lite"
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-20b"
 
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
